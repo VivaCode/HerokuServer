@@ -1,0 +1,20 @@
+{
+  "name": "HerokuServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:VivaCode/HerokuServer.git",
+  "author": "Emily McClanahan <emily.f.mcclanahan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+		"start": "node index.js",
+		"server": "nodemon index.js"
+	},
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
